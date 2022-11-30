@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Neha Web Practical Site</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- fontawesome icons-->
+    <script src="https://kit.fontawesome.com/78d9e2a82f.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap + Meyawo main styles -->
+	<link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">Neha</a>         
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="index.html">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">Image</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="video.html">Video</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="table.html">Table</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>          
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Neha Gholap</span>
+            </h1>
+            <p class="header-subtitle">FRONTEND WEB DESIGNER</p>            
+
+            <button class="btn btn-primary">Visit My Works</button>
+        </div>              
+    </header><!-- end of page header -->
+
+   
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Me</h6>
+            <!-- contact form -->
+            <form name="form1" action="#" class="contact-form col-md-10 col-lg-8 m-auto">
+                <div class="error form-row">
+                    <div class="form-group col-sm-6">
+                        <i class="fas fa-user"></i>
+                        <input type="text" name="username" id="username" size="50" class="form-control" placeholder="Your Name">    
+                        <i class="fas fa-exclamation-circle failure-icon"></i>
+                        <i class="far fa-check-circle success-icon"></i>             
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <i class="far fa-envelope"></i>
+                        <input type="text" name="email" class="email-validate form-control" size="30" placeholder="Enter Email"requried>             
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <i class="fa fa-phone"></i>
+                        <input type="text" name="phone" id="phone_num" class="form-control" placeholder="Phone Number" requried>
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <textarea name="comment" id="comment" rows="6"   class="form-control" size="150" placeholder="Write Something" requried></textarea>
+                    </div>
+                    <!-- <div class="form-group col-sm-12 mt-3">
+                        <input  id="submit" name="submit" type="submit" value="Send Message" onclick="validateEmail(document.form1.email);validatePhoneNumber(document.form1.phone)" class="btn btn-outline-primary rounded">                  
+                    </div> -->
+                    <div class="form-group col-sm-12 mt-3">
+                        <button  id="submit" name="submit" type="submit" value="Send Message" class="btn btn-outline-primary rounded">                  
+                    </div>
+                </div>  
+            </form><!-- end of contact form -->
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">       
+            <p class="mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a>Neha Gholap</a></p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- index js -->
+    <script src="assets/js/index.js"></script>
+
+</body>
+</html>
